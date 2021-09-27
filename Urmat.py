@@ -12,7 +12,21 @@ def aa(*bb):
         print(cc)
 aa(1,2,3)
 
+def aaa(*bbb):
+    for ccc in bbb:
+        print(ccc,len(ccc))
+aaa("Илияз","Ислам","Бека","Сыймык")
 
+def aaa(**bbb):
+    for ccc,ddd in bbb.items():
+        print(ccc,ddd)
+aaa(name="Илияз",film="Поймай меня если сможешь")
+
+def aaa(bbb,ccc):
+    for ddd in range(ccc):
+        bbb=bbb*1.1
+        print(bbb)
+aaa(3000,5)
 
 
 
